@@ -10,6 +10,27 @@
 		D045AB1F1E4E6A01008548F8 /* ReactiveFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045AB151E4E6A01008548F8 /* ReactiveFire.framework */; };
 		D045AB241E4E6A01008548F8 /* ReactiveFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045AB231E4E6A01008548F8 /* ReactiveFireTests.swift */; };
 		D045AB261E4E6A01008548F8 /* ReactiveFire.h in Headers */ = {isa = PBXBuildFile; fileRef = D045AB181E4E6A01008548F8 /* ReactiveFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C007AC1E4E6C0800C2F421 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A51E4E6C0800C2F421 /* Alamofire.framework */; };
+		D0C007AD1E4E6C0800C2F421 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */; };
+		D0C007AE1E4E6C0800C2F421 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A71E4E6C0800C2F421 /* Event.framework */; };
+		D0C007AF1E4E6C0800C2F421 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A81E4E6C0800C2F421 /* ExecutionContext.framework */; };
+		D0C007B01E4E6C0800C2F421 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A91E4E6C0800C2F421 /* Future.framework */; };
+		D0C007B11E4E6C0900C2F421 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AA1E4E6C0800C2F421 /* Result.framework */; };
+		D0C007B21E4E6C0900C2F421 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */; };
+		D0C007B31E4E6C4100C2F421 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A51E4E6C0800C2F421 /* Alamofire.framework */; };
+		D0C007B41E4E6C4100C2F421 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */; };
+		D0C007B51E4E6C4100C2F421 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A71E4E6C0800C2F421 /* Event.framework */; };
+		D0C007B61E4E6C4100C2F421 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A81E4E6C0800C2F421 /* ExecutionContext.framework */; };
+		D0C007B71E4E6C4100C2F421 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A91E4E6C0800C2F421 /* Future.framework */; };
+		D0C007B81E4E6C4100C2F421 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AA1E4E6C0800C2F421 /* Result.framework */; };
+		D0C007B91E4E6C4100C2F421 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */; };
+		D0C007BB1E4E6C6B00C2F421 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A51E4E6C0800C2F421 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007BC1E4E6C6B00C2F421 /* Boilerplate.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007BD1E4E6C6B00C2F421 /* Event.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A71E4E6C0800C2F421 /* Event.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007BE1E4E6C6B00C2F421 /* ExecutionContext.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A81E4E6C0800C2F421 /* ExecutionContext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007BF1E4E6C6B00C2F421 /* Future.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A91E4E6C0800C2F421 /* Future.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007C01E4E6C6B00C2F421 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AA1E4E6C0800C2F421 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007C11E4E6C6B00C2F421 /* RunLoop.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +43,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D0C007BA1E4E6C5000C2F421 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D0C007BB1E4E6C6B00C2F421 /* Alamofire.framework in Copy Frameworks */,
+				D0C007BC1E4E6C6B00C2F421 /* Boilerplate.framework in Copy Frameworks */,
+				D0C007BD1E4E6C6B00C2F421 /* Event.framework in Copy Frameworks */,
+				D0C007BE1E4E6C6B00C2F421 /* ExecutionContext.framework in Copy Frameworks */,
+				D0C007BF1E4E6C6B00C2F421 /* Future.framework in Copy Frameworks */,
+				D0C007C01E4E6C6B00C2F421 /* Result.framework in Copy Frameworks */,
+				D0C007C11E4E6C6B00C2F421 /* RunLoop.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D045AB151E4E6A01008548F8 /* ReactiveFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D045AB181E4E6A01008548F8 /* ReactiveFire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveFire.h; sourceTree = "<group>"; };
@@ -29,6 +70,13 @@
 		D045AB1E1E4E6A01008548F8 /* ReactiveFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveFireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D045AB231E4E6A01008548F8 /* ReactiveFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveFireTests.swift; sourceTree = "<group>"; };
 		D045AB251E4E6A01008548F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C007A51E4E6C0800C2F421 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Boilerplate.framework; path = Carthage/Build/Mac/Boilerplate.framework; sourceTree = "<group>"; };
+		D0C007A71E4E6C0800C2F421 /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Event.framework; path = Carthage/Build/Mac/Event.framework; sourceTree = "<group>"; };
+		D0C007A81E4E6C0800C2F421 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExecutionContext.framework; path = Carthage/Build/Mac/ExecutionContext.framework; sourceTree = "<group>"; };
+		D0C007A91E4E6C0800C2F421 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Future.framework; path = Carthage/Build/Mac/Future.framework; sourceTree = "<group>"; };
+		D0C007AA1E4E6C0800C2F421 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RunLoop.framework; path = Carthage/Build/Mac/RunLoop.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +84,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C007AC1E4E6C0800C2F421 /* Alamofire.framework in Frameworks */,
+				D0C007AD1E4E6C0800C2F421 /* Boilerplate.framework in Frameworks */,
+				D0C007AE1E4E6C0800C2F421 /* Event.framework in Frameworks */,
+				D0C007AF1E4E6C0800C2F421 /* ExecutionContext.framework in Frameworks */,
+				D0C007B01E4E6C0800C2F421 /* Future.framework in Frameworks */,
+				D0C007B11E4E6C0900C2F421 /* Result.framework in Frameworks */,
+				D0C007B21E4E6C0900C2F421 /* RunLoop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +99,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D045AB1F1E4E6A01008548F8 /* ReactiveFire.framework in Frameworks */,
+				D0C007B31E4E6C4100C2F421 /* Alamofire.framework in Frameworks */,
+				D0C007B41E4E6C4100C2F421 /* Boilerplate.framework in Frameworks */,
+				D0C007B51E4E6C4100C2F421 /* Event.framework in Frameworks */,
+				D0C007B61E4E6C4100C2F421 /* ExecutionContext.framework in Frameworks */,
+				D0C007B71E4E6C4100C2F421 /* Future.framework in Frameworks */,
+				D0C007B81E4E6C4100C2F421 /* Result.framework in Frameworks */,
+				D0C007B91E4E6C4100C2F421 /* RunLoop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +118,7 @@
 				D045AB171E4E6A01008548F8 /* ReactiveFire */,
 				D045AB221E4E6A01008548F8 /* ReactiveFireTests */,
 				D045AB161E4E6A01008548F8 /* Products */,
+				D0C007A41E4E6C0800C2F421 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +147,20 @@
 				D045AB251E4E6A01008548F8 /* Info.plist */,
 			);
 			path = ReactiveFireTests;
+			sourceTree = "<group>";
+		};
+		D0C007A41E4E6C0800C2F421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C007A51E4E6C0800C2F421 /* Alamofire.framework */,
+				D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */,
+				D0C007A71E4E6C0800C2F421 /* Event.framework */,
+				D0C007A81E4E6C0800C2F421 /* ExecutionContext.framework */,
+				D0C007A91E4E6C0800C2F421 /* Future.framework */,
+				D0C007AA1E4E6C0800C2F421 /* Result.framework */,
+				D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +202,7 @@
 				D045AB1A1E4E6A01008548F8 /* Sources */,
 				D045AB1B1E4E6A01008548F8 /* Frameworks */,
 				D045AB1C1E4E6A01008548F8 /* Resources */,
+				D0C007BA1E4E6C5000C2F421 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +404,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveFire/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -347,6 +429,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveFire/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -363,6 +449,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y92JL37YF3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = ReactiveFireTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.ReactiveFireTests;
@@ -376,6 +466,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y92JL37YF3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = ReactiveFireTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.ReactiveFireTests;
@@ -403,6 +497,7 @@
 				D045AB2B1E4E6A01008548F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D045AB2C1E4E6A01008548F8 /* Build configuration list for PBXNativeTarget "ReactiveFireTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +506,7 @@
 				D045AB2E1E4E6A01008548F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
