@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D045AB1F1E4E6A01008548F8 /* ReactiveFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045AB151E4E6A01008548F8 /* ReactiveFire.framework */; };
 		D045AB241E4E6A01008548F8 /* ReactiveFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045AB231E4E6A01008548F8 /* ReactiveFireTests.swift */; };
-		D045AB261E4E6A01008548F8 /* ReactiveFire.h in Headers */ = {isa = PBXBuildFile; fileRef = D045AB181E4E6A01008548F8 /* ReactiveFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C007AC1E4E6C0800C2F421 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A51E4E6C0800C2F421 /* Alamofire.framework */; };
 		D0C007AD1E4E6C0800C2F421 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A61E4E6C0800C2F421 /* Boilerplate.framework */; };
 		D0C007AE1E4E6C0800C2F421 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A71E4E6C0800C2F421 /* Event.framework */; };
@@ -65,7 +64,6 @@
 
 /* Begin PBXFileReference section */
 		D045AB151E4E6A01008548F8 /* ReactiveFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D045AB181E4E6A01008548F8 /* ReactiveFire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveFire.h; sourceTree = "<group>"; };
 		D045AB191E4E6A01008548F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D045AB1E1E4E6A01008548F8 /* ReactiveFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveFireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D045AB231E4E6A01008548F8 /* ReactiveFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveFireTests.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 		D045AB171E4E6A01008548F8 /* ReactiveFire */ = {
 			isa = PBXGroup;
 			children = (
-				D045AB181E4E6A01008548F8 /* ReactiveFire.h */,
 				D045AB191E4E6A01008548F8 /* Info.plist */,
 			);
 			path = ReactiveFire;
@@ -170,7 +167,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D045AB261E4E6A01008548F8 /* ReactiveFire.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
