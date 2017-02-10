@@ -7,7 +7,9 @@
 //
 
 import XCTest
-@testable import ReactiveFire
+
+import Alamofire
+import ReactiveFire
 
 class ReactiveFireTests: XCTestCase {
     
@@ -21,9 +23,15 @@ class ReactiveFireTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testBasic() {
+        let e = self.expectation(description: "OK")
+        
+        Alamofire.request("https://httpbin.org/get").responseJSON().onSuccess { response in
+            print("!@#$#@!@#$%:", response)
+            e.fulfill()
+        }
+        
+        self.waitForExpectations(timeout: 10, handler: nil)
     }
     
     func testPerformanceExample() {

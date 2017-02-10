@@ -30,6 +30,9 @@
 		D0C007BF1E4E6C6B00C2F421 /* Future.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007A91E4E6C0800C2F421 /* Future.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0C007C01E4E6C6B00C2F421 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AA1E4E6C0800C2F421 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0C007C11E4E6C6B00C2F421 /* RunLoop.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C007C31E4E6CD700C2F421 /* ResultMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C007C21E4E6CD700C2F421 /* ResultMapping.swift */; };
+		D0C007C51E4E6D6E00C2F421 /* ResultConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C007C41E4E6D6E00C2F421 /* ResultConversion.swift */; };
+		D0C007C71E4E6E1D00C2F421 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C007C61E4E6E1D00C2F421 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		D0C007A91E4E6C0800C2F421 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Future.framework; path = Carthage/Build/Mac/Future.framework; sourceTree = "<group>"; };
 		D0C007AA1E4E6C0800C2F421 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
 		D0C007AB1E4E6C0800C2F421 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RunLoop.framework; path = Carthage/Build/Mac/RunLoop.framework; sourceTree = "<group>"; };
+		D0C007C21E4E6CD700C2F421 /* ResultMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultMapping.swift; sourceTree = "<group>"; };
+		D0C007C41E4E6D6E00C2F421 /* ResultConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultConversion.swift; sourceTree = "<group>"; };
+		D0C007C61E4E6E1D00C2F421 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				D045AB191E4E6A01008548F8 /* Info.plist */,
+				D0C007C21E4E6CD700C2F421 /* ResultMapping.swift */,
+				D0C007C41E4E6D6E00C2F421 /* ResultConversion.swift */,
+				D0C007C61E4E6E1D00C2F421 /* Request.swift */,
 			);
 			path = ReactiveFire;
 			sourceTree = "<group>";
@@ -223,6 +232,7 @@
 					D045AB141E4E6A01008548F8 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = Y92JL37YF3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D045AB1D1E4E6A01008548F8 = {
@@ -272,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C007C51E4E6D6E00C2F421 /* ResultConversion.swift in Sources */,
+				D0C007C71E4E6E1D00C2F421 /* Request.swift in Sources */,
+				D0C007C31E4E6CD700C2F421 /* ResultMapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +406,7 @@
 		D045AB2A1E4E6A01008548F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -411,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.crossroadlabs.ReactiveFire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -418,6 +433,7 @@
 		D045AB2B1E4E6A01008548F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -443,6 +459,7 @@
 		D045AB2D1E4E6A01008548F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y92JL37YF3;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,6 +477,7 @@
 		D045AB2E1E4E6A01008548F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y92JL37YF3;
 				FRAMEWORK_SEARCH_PATHS = (
