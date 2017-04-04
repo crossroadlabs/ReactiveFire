@@ -16,6 +16,7 @@
 
 import Alamofire
 import Boilerplate
+import Result
 
 extension Alamofire.Result {
     
